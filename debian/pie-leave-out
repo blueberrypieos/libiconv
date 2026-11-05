@@ -1,0 +1,31 @@
+# Installed data the source package leaves out although the build uses it.
+# GB12345 and DECMCS: compiled from tables whose notice excludes redistribution.
+i18n/csmapper/GB/*GB12345*
+i18n/esdb/GB/GB12345.esdb
+i18n/csmapper/MISC/*DECMCS*
+i18n/esdb/DEC/DECMCS.esdb
+# Mac encodings without a permissively licensed table: their notice grants no licence.
+i18n/csmapper/APPLE/*ARABIC*
+i18n/csmapper/APPLE/*FARSI*
+i18n/csmapper/APPLE/*HEBREW*
+i18n/csmapper/APPLE/*DEVANAGA*
+i18n/csmapper/APPLE/*GUJARATI*
+i18n/csmapper/APPLE/*GURMUKHI*
+i18n/csmapper/APPLE/*CELTIC*
+i18n/csmapper/APPLE/*GAELIC*
+i18n/csmapper/APPLE/*INUIT*
+i18n/csmapper/APPLE/*KEYBOARD*
+i18n/csmapper/APPLE/*THAI*
+i18n/csmapper/APPLE/*SYMBOL*
+i18n/esdb/APPLE/MACARABIC.esdb
+i18n/esdb/APPLE/MACFARSI.esdb
+i18n/esdb/APPLE/MACHEBREW.esdb
+i18n/esdb/APPLE/MACDEVANAGA.esdb
+i18n/esdb/APPLE/MACGUJARATI.esdb
+i18n/esdb/APPLE/MACGURMUKHI.esdb
+i18n/esdb/APPLE/MACCELTIC.esdb
+i18n/esdb/APPLE/MACGAELIC.esdb
+i18n/esdb/APPLE/MACINUIT.esdb
+i18n/esdb/APPLE/MACKEYBOARD.esdb
+i18n/esdb/APPLE/MACTHAI.esdb
+i18n/esdb/APPLE/MACSYMBOL.esdb
