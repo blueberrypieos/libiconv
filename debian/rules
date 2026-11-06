@@ -75,7 +75,7 @@ install: all installhdrs
 	cd $(SRCROOT)/i18n && tar -cf - --exclude README . | tar -xf - -C $(ROOT)/usr/share/i18n
 	install -d $(ROOT)/usr/share/man/man1 $(ROOT)/usr/share/man/man3
 	install -m 644 $(SRCROOT)/iconv/iconv.1 $(ROOT)/usr/share/man/man1/
-	install -m 644 $(SRCROOT)/citrus/*.3 $(ROOT)/usr/share/man/man3/
+	install -m 644 $(SRCROOT)/citrus/iconv.3 $(ROOT)/usr/share/man/man3/
 
 installhdrs:
 	install -d $(ROOT)/usr/include

@@ -6,7 +6,6 @@ Files-Excluded: *
 Files-Included:
  citrus/__iconv.c
  citrus/__iconv_free_list.c
- citrus/__iconv_get_list.3
  citrus/__iconv_get_list.c
  citrus/_strtol.h
  citrus/_strtoul.h
@@ -65,16 +64,13 @@ Files-Included:
  citrus/iconv.3
  citrus/iconv.c
  citrus/iconv.h
- citrus/iconv_canonicalize.3
  citrus/iconv_canonicalize.c
  citrus/iconv_close.c
  citrus/iconv_compat.c
  citrus/iconv_open.c
  citrus/iconv_open_into.c
  citrus/iconv_set_relocation_prefix.c
- citrus/iconvctl.3
  citrus/iconvctl.c
- citrus/iconvlist.3
  citrus/iconvlist.c
  i18n/csmapper/APPLE/CENTEURO%UCS.mps
  i18n/csmapper/APPLE/CROATIAN%UCS.mps
@@ -231,6 +227,11 @@ Files: libiconv_modules/MSKanji/citrus_mskanji.c
 Copyright: 2002 Citrus Project
  1995 Sin'ichiro MIYATANI / Phase One, Inc.
 License: BSD-2-Clause AND LicenseRef-BSD-4-Clause-Phase-One
+
+Files: libiconv_modules/DECKanji/citrus_deckanji.c
+ libiconv_modules/UTF8MAC/citrus_utf8mac.c
+Copyright: 2022 Apple Computer, Inc.
+License: BSD-2-Clause
 
 Files: i18n/csmapper/APPLE/*
 Copyright: 2016 and later Unicode, Inc. and others
